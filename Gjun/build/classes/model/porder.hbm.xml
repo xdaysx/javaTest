@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2020/1/7 ?W?? 01:34:29 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.porder" table="PORDER">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="pro1" type="int">
+            <column name="PRO1" />
+        </property>
+        <property name="pro2" type="int">
+            <column name="PRO2" />
+        </property>
+        <property name="pro3" type="int">
+            <column name="PRO3" />
+        </property>
+        <property name="pro4" type="int">
+            <column name="PRO4" />
+        </property>
+        <property name="pro5" type="int">
+            <column name="PRO5" />
+        </property>
+        <property name="pro6" type="int">
+            <column name="PRO6" />
+        </property>
+        <property name="pro7" type="int">
+            <column name="PRO7" />
+        </property>
+        <property name="pro8" type="int">
+            <column name="PRO8" />
+        </property>
+        <property name="sum" type="int" access="field">
+            <column name="SUM" />
+        </property>
+    </class>
+</hibernate-mapping>

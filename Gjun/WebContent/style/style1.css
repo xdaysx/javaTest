@@ -1,0 +1,59 @@
+@charset "UTF-8";
+html, body {
+	height: 100%;/* 高度 */
+	width: 100%;/* 寬度 */
+	padding: 0px;/* 留白，環繞在內容四周部分 */
+	margin: 0px;/* 邊界，框線外面透明的區域，控制元素彼此之間的距離 */
+	font-family: arial;/* 字型 */
+}
+
+#bodyWrapper {
+	width: 100%;
+	height: 100%;
+	margin: auto;/* 邊界，框線外面透明的區域，控制元素彼此之間的距離 */
+	background: #ffffff;
+}
+
+#header {
+	padding: 30px 100px;/* 留白，環繞在內容四周部分 */
+	font-size: 60px;/* 字體大小 */
+	text-align: left;/* 文字如何對齊 */
+	color: #400000;/* 字體顏色 */
+	font-family: Georgia;/* 字型 */
+	padding-bottom: 10px;
+	
+}
+
+#pageBody {
+	overflow: hidden;/* 內容出了給定的寬度和高度，是否顯示滾動條等行為 */
+	height: 100%;
+	font-family:標楷體;
+}
+
+#sidebar {
+	float: left;
+	width: 13%;
+	padding:0px 20px;
+	font-size:20px;
+	text-align: left;
+	line-height: 1.6em;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+	margin-left:90px;
+	height: 100%;
+	font-family:標楷體;
+}
+
+#footer {
+	background: #400000;
+	color:#ffffff;
+	padding: 8px;
+	clear: both;/* 左右兩側不允許圖片元素 */
+	font-weight: bold;/* 字體加粗 */
+	text-align: center;/* 文字置中對齊 */
+}
+ul{list-style-type:none;}
+
+table, th, td {
+  text-align: center;
+}
